@@ -1,1 +1,3 @@
 # Text-Verisimilitude-Verification-Using-Machine-Learning
+
+This repository contains a project i developed for my Bachelor's Degree in Computer Science. It contains an ensemble model, whose aim is to detect whether a text was written by a human, or by a Language Model, such as BERT, or GPT. The model is a combination of three components: One that uses the probability density of BERT and GPT-2 to check the likelihood that one of them generated the text; One that uses a simple SVM as a classifier; And the third one, called SC-Net, that uses the semantic coherence of the input text, obtained via the hidden weights of a pre-trained GRU Language Model, as an input to a CNN that acts as the classifier.
